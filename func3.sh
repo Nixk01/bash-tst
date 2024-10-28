@@ -1,7 +1,7 @@
 #! /bin/bash
 function funcCheck()
 {
-    returningValue="using function right now"
+    returningValue="using function right now" # local var. calling
     echo "$returningValue"
 }
 
