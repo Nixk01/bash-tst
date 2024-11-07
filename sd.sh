@@ -1,6 +1,9 @@
 #! /bin/bash
+
+set -x
 echo "enter filename to substitute using sed"
 read fileName
+set +x
 if [[ -f $fileName ]]
 then
 	#cat touchfl.txt | sed 's/i/I/'
